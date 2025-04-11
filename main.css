@@ -1,0 +1,139 @@
+.p{
+background-color: #FFFF00;
+width: 250px;
+height: 250px;
+margin-top: 30px;
+cursor: pointer;
+}
+
+.p:hover{
+  background-color:#00FF7F;
+}
+
+.p1:hover{
+  background-color:#00FF7F;
+}
+
+h2{
+  color: #40E0D0;
+  text-align: center;
+  position: relative;
+  top: 40%;
+}
+#r2{
+  float: right;
+}
+#r1{
+  float: left;
+}
+#v1{
+  text-align: center;
+}
+#v2{
+  position: relative;
+  top:350px;
+}
+.p1{
+background-color: #FFFF00;
+width: 250px;
+height: 250px;
+cursor: pointer;
+}
+
+#t1{
+  float: left;
+  position: relative;
+  top: 400px;
+  right: 250px;
+}
+
+#t2{
+  float: right;
+  position: relative;
+  top: 400px;
+  left: 250px;
+  cursor: pointer;
+}
+
+#w1{
+  float: left;
+  position: relative;
+  top: 750px;
+  right: 500px;
+}
+
+#w2{
+  float: right;
+  position: relative;
+top: 500px;
+}
+
+#v3{
+  text-align: center;
+  position: relative;
+  top: 450px;
+  right: 250px;
+}
+
+
+@media (max-width: 480px) {
+#r2{
+float: right;
+position: relative;
+right: 100px;
+top: 100px;
+   }
+ #r1{
+float: right;
+position: relative;
+right: 100px;
+   }
+
+   #v2{
+     position: relative;
+     top:800px;
+     left: 150px;
+   }
+   #t1{
+     float: right;
+     position: relative;
+     right: 100px;
+   }
+   #t2{
+     float: left;
+     position: relative;
+     left: 100px;
+     top: 550px;
+   }
+  #w1{
+    position: relative;
+    top: 100px;
+    float: left;
+  }
+  #w1{
+    width: 250px;
+    position: relative;
+    left: 100px;
+    top: 1200px;
+  }
+  #w2{
+    position: relative;
+    float: left;
+    right: -100px;
+
+  }
+  #t1{
+    float: left;
+    position: relative;
+    left: 100px;
+  }
+  #v1{
+    text-align: center;
+  }
+  #v3{
+    text-align: center;
+    position: relative;
+    left: 30px;
+  top: 100px;
+  }
+}
